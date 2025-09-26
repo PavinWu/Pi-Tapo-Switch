@@ -1,5 +1,6 @@
 
 mod tapo_control;
+mod sensor_control;
 
 
 // TODO Process
@@ -23,6 +24,8 @@ mod tapo_control;
 
 - What to do if  the Tapo device is not reachable?
 */
+
+// Use arm-unknown-linux-gnueabi to build
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {

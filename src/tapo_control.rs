@@ -29,5 +29,8 @@ pub async fn test_tapo() -> Result<(), Box<dyn std::error::Error>> {
     println!("Setting the color to `Chocolate`...");
     device.set_color(Color::Chocolate).await?;
 
+    println!("Setting the color to `Chocolate`...");
+    device.off().await?;
+
     Ok(())
 }

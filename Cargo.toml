@@ -7,3 +7,6 @@ edition = "2024"
 tapo = "0.8"
 tokio = { version = "1.45", features = ["full"] }
 apds9960 = { version = "0.1" }
+linux-embedded-hal = { version = "0.2.0" }
+nb = { version = "1.1.0" }
+rppal = { version = "0.22.1" }
